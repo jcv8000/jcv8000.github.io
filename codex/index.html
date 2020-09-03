@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<title>Codex - Note-taking for programmers</title>
+
+<link rel="icon" href="https://www.codexnotes.com/favicon.png" type="image/png" sizes="16x16 32x32">
+
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<style>
+	body {
+		
+	}
+
+	a.nav-link {
+		color: white;
+		font-size: 14px;
+		font-family: 'Source Sans Pro' !important;
+	}
+	a.nav-link:hover {
+		text-decoration: underline;
+	}
+	
+	.mybtn {
+
+      padding: 12px 24px 12px;
+      color: #FAFAFA;
+      background: linear-gradient(#0094FF, #0069B5);
+      border-radius: 0.25rem;
+      border: none;
+      outline: none;
+      transition: 250ms ease;
+      cursor: pointer;
+      font-family: 'Source Sans Pro' !important;
+      font-size: 16px;
+      
+    }
+      
+    .mybtn:hover {
+      
+      background: linear-gradient(#4EB2FF, #007ED8);
+      color: #FAFAFA;
+      text-decoration: none;
+      
+    }
+      
+    .mybtn:active {
+      
+      background: linear-gradient(#0069B5, #0094FF);
+      color: #FAFAFA;
+      text-decoration: none;
+      
+    }
+    
+    .mybtn:focus {
+        outline: none;
+    }
+    
+    @media (max-width: 1312px) { 
+        #mainImg {
+            width: 90vw !important;
+        }
+    }
+    
+    @media (max-width: 632px) {
+        #logo {
+            width: 90vw !important;
+        }
+    }
+    
+</style>
+
+<body>
+    
+	<div class="d-flex flex-column align-items-center p-1 px-md-4" style="background-color: #343A40; color: #67737E">
+		<ul class="nav justify-content-center">
+		  <li class="nav-item">
+			<a class="nav-link" href="https://www.codexnotes.com/">Home</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="/download/">Download</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="/docs/">Help/Docs</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="/updates/">Update Log</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="/history/">Dev History</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="/contact/">Contact</a>
+		  </li>
+		</ul>
+	</div>
+
+
+
+
+	<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+	  <img src="logo.png" id="logo" style="width: 600px">
+	  <p class="lead">A <i><b>free</b></i>, simple, and customizable note-taking software for programmers and Computer Science students.</p>
+	  <p class="lead" style="font-size: 16px">For Windows, macOS, and Linux.</p><br>
+	  <a href="/download/" class="mybtn">Download coming soon</a><br><br>
+	  <img src="exampleimg/main.png" id="mainImg" class="shadow my-3" style="border-radius: 4px">
+	  <br>
+	  
+	</div>
+
+
+	<div class="container my-2">
+
+		<center><h1>About</h1></center>
+		<p class="lead my-5">I'm a Computer Science student, and about a year ago I started taking notes on my computer, and most mainstream note-taking programs don't have very good support for writing code inside your notes. I would have to either have to settle on having boring white code with no visual separation from the text, or paste in a picture of the code (not very intuitive). So I decided to write my own note-taking program to make it simple and visually-appealing to write code.</p>
+
+		<center><h1>Features</h1></center>
+		
+		<div class="row">
+		  <div class="col my-3">
+			<div class="card shadow-sm">
+			  <div class="card-body">
+				<h4 class="card-title">Dark Mode</h4>
+				<img src="exampleimg/darkmode.png" style="border-radius: 4px; width: 100%">
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="col my-3">
+			<div class="card shadow-sm">
+			  <div class="card-body">
+				<h4 class="card-title">Full-featured note-taker</h4>
+				<p class="card-text">Aside from writing beautiful code blocks, Codex has the other styling tools that you could expect, such as tables, inline code, links, images, headers, and block quotes. All pages get saved automatically when you switch pages or exit the program.</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="col-sm-6 my-3">
+			<div class="card shadow-sm">
+			  <div class="card-body">
+				<h4 class="card-title">Automatic code highlighting</h4>
+				<p class="card-text">Code automatically highlights and colors as you type, based on your selected code style.</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-sm-6 my-3">
+			<div class="card shadow-sm">
+			  <div class="card-body">
+				<h4 class="card-title">Support for tons of programming languages</h4>
+				<p class="card-text">If the programming language you take notes on is not shown, you can select "Other" and it will still be automatically highlighted.</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="col-sm-6 my-3">
+			<div class="card shadow-sm">
+			  <div class="card-body">
+				<h4 class="card-title">Cloud syncing</h4>
+				<p class="card-text">You can sync your notes between computers using a third-party Cloud software like Dropbox, iCloud, etc. by changing the save location of your notes to that Cloud software's synced drive.</p>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-sm-6 my-3">
+			<div class="card shadow-sm">
+			  <div class="card-body">
+				<h4 class="card-title">Lots of beautiful code themes</h4>
+				<p class="card-text">You can switch between over 100 different code themes. (My favorites are the Github theme and the Atom One Dark theme)</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="row mb-5">
+		  <div class="col my-3">
+			<div class="card shadow-sm">
+			  <div class="card-body">
+				<h4 class="card-title">Quick and simple code macros</h4>
+				<p class="card-text">While you're typing notes, it might be faster to use a macro to create a code block than to insert it with the toolbar. In Codex, you can type macros like <code>[cpp]</code> to make a C++ code block or <code>[js]</code> to make a JavaScript block. The list of macros can be found in the "Keybinds and macros" Help section.</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		
+		
+		<footer class="my-3 pt-md-3 border-top">
+			<center>
+			
+				<a class="footer-link" href="#">Home</a>
+				|
+				<a class="footer-link" href="/download/">Download</a>
+				|
+				<a class="footer-link" href="/docs/">Help/Docs</a>
+				|
+				<a class="footer-link" href="/updates/">Update Log</a>
+				|
+				<a class="footer-link" href="/history/">Dev History</a>
+				|
+				<a class="footer-link" href="/contact/">Contact</a>
+				
+				<br><br>
+				<small xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text text-muted"><span rel="dct:title">Codex (software)</span>   is licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</a></small>
+				<br><br>
+				<img class="mb-2" src="https://www.codexnotes.com/favicon.png" alt="" width="16" height="16"> <small class="text-muted" style="vertical-align: top">&copy; 2020</small>
+
+			</center>
+		</footer>
+		
+	</div>
+
+</body>
+</html>
