@@ -1,0 +1,88 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #121212;
+	font-size: 16px;
+	background-color: #7D7D7D;
+	/*background-image: url("img/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: 100% 100%;*/
+	padding: 0px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+button {
+	padding: 6px 30px 6px;
+	background: linear-gradient(#D8D8D8, #B2B2B2);
+	border-radius: 3px;
+	border: 1px solid darkgrey;
+	outline: none;
+	transition: 250ms ease;
+	cursor: pointer;
+}
+
+button:hover {
+	background: linear-gradient(#E4E4E4, #C9C9C9);
+}
+
+button:active {
+	background: linear-gradient(#B2B2B2, #D8D8D8);
+	transition: 250ms ease;
+}
+
+button.important {
+	background: linear-gradient(#0094FF, #0069B5);
+	color: #FAFAFA;
+	border: 1px solid #0069B5;
+}
+
+button.important:hover {
+	background: linear-gradient(#4EB2FF, #007ED8);
+}
+
+button.important:active {
+	background: linear-gradient(#0069B5, #0094FF);
+}
+
+span.content {
+	border-radius: 4px;
+	box-shadow: 0 2px 2px 0 #111111;
+	padding: 25px 25px 25px 25px;
+	width: auto;
+	background-color: #FAFAFA;
+	display: block;
+	font-size: 16px;
+	margin-top: 80px;
+}
+
+.proj {
+	border-radius: 4px;
+	padding: 25px 25px 25px 25px;
+	width: auto;
+	background-color: #E8E8E8;
+	display: block;
+	vertical-align: middle;
+	transition: background-color 0.15s ease;
+	text-decoration: none;
+	color: #121212;
+}
+
+.proj:hover {
+	background-color: #D6D6D6;
+	cursor: pointer;
+}
+
+.projDesc {
+	display: inline-block;
+	vertical-align: 25px;
+	margin-left: 25px;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 600;
+	margin:0;
+}
