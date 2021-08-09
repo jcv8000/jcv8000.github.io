@@ -1,88 +1,75 @@
-body {
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #121212;
-	font-size: 16px;
-	background-color: #7D7D7D;
-	/*background-image: url("img/bg.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed; 
-	background-size: 100% 100%;*/
-	padding: 0px;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-top: 30px;
-	margin-bottom: 50px;
+p {
+    margin-bottom: 0.65rem;
 }
 
-button {
-	padding: 6px 30px 6px;
-	background: linear-gradient(#D8D8D8, #B2B2B2);
-	border-radius: 3px;
-	border: 1px solid darkgrey;
-	outline: none;
-	transition: 250ms ease;
-	cursor: pointer;
+.info-card {
+    /*background-color: #EDEDED;
+    border: 1px solid #C8C8C8;
+    width: 320px;*/
+    height: 390px;
+    padding: 40px 20px;
+    border-radius: 8px;
 }
 
-button:hover {
-	background: linear-gradient(#E4E4E4, #C9C9C9);
+.rounded {
+    border-radius: 1000px !important;
 }
 
-button:active {
-	background: linear-gradient(#B2B2B2, #D8D8D8);
-	transition: 250ms ease;
+.project-card {
+    background-color: #F6F6F6;
+    border: 1px solid #DCDCDC;
+    padding: 30px 30px;
+    margin: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0.4rem 0.7rem rgba(0, 0, 0, 0.1);
 }
 
-button.important {
-	background: linear-gradient(#0094FF, #0069B5);
-	color: #FAFAFA;
-	border: 1px solid #0069B5;
+a.project-title {
+    text-decoration: none !important;
 }
 
-button.important:hover {
-	background: linear-gradient(#4EB2FF, #007ED8);
+a.project-title:hover {
+    text-decoration: none !important;
 }
 
-button.important:active {
-	background: linear-gradient(#0069B5, #0094FF);
+img.website-icon {
+    width: 34px;
+    height: 34px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-span.content {
-	border-radius: 4px;
-	box-shadow: 0 2px 2px 0 #111111;
-	padding: 25px 25px 25px 25px;
-	width: auto;
-	background-color: #FAFAFA;
-	display: block;
-	font-size: 16px;
-	margin-top: 80px;
+img.github-icon {
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.proj {
-	border-radius: 4px;
-	padding: 25px 25px 25px 25px;
-	width: auto;
-	background-color: #E8E8E8;
-	display: block;
-	vertical-align: middle;
-	transition: background-color 0.15s ease;
-	text-decoration: none;
-	color: #121212;
+img.project-img {
+    width: 96px;
+    height: 96px;
 }
 
-.proj:hover {
-	background-color: #D6D6D6;
-	cursor: pointer;
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
-.projDesc {
-	display: inline-block;
-	vertical-align: 25px;
-	margin-left: 25px;
+.center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h1 {
-	font-size: 32px;
-	font-weight: 600;
-	margin:0;
+.language-pill {
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 12px;
+    vertical-align: -1px;
 }
